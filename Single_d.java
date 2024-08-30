@@ -6,6 +6,7 @@ class student
 {
 		 int rollno;
 		 String name;
+	         String clg_name;
 		 
 		 void get_data()
 		 {
@@ -14,6 +15,8 @@ class student
 		  rollno=sc.nextInt();
 		  System.out.println("Enter the student Name :");
 		  name=sc.next();
+		  System.out.println("Enter your College Name Here :");
+	          clg_name=sc.next();
 		  }
 		  
 		  void display()
